@@ -17,10 +17,14 @@ namespace Diyet_Uygulamasi
             
             InitializeComponent();
         }
+
+        
        
         private void button1_Click(object sender, EventArgs e)
         {
+
             Form1 form1 = new Form1();
+            
             form1.diyetisyenAdi = diyetisyenAd.Text;
             form1.diyetisyenSifresi = diyetisyenSifre.Text;
             form1.Show();

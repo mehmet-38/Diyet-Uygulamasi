@@ -16,5 +16,10 @@ namespace Diyet_Uygulamasi
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
