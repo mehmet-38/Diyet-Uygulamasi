@@ -17,9 +17,10 @@ namespace Diyet_Uygulamasi
         {
              
             InitializeComponent();
+            
         }
 
-
+        
 
         public Form2 form2 = new Form2();
         private void button1_Click(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace Diyet_Uygulamasi
                 this.Hide();
             }
         }
-        public string diyetisyenAdi;
+       public string diyetisyenAdi;
         public string diyetisyenSifresi;
         private void button2_Click(object sender, EventArgs e)
         {
@@ -41,7 +42,7 @@ namespace Diyet_Uygulamasi
                 this.Hide();
             }
         }
+
         
-       
     }
 }

@@ -196,8 +196,6 @@ namespace Diyet_Uygulamasi
         }
 
         #endregion
-
-        private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -210,6 +208,7 @@ namespace Diyet_Uygulamasi
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox diyetisyenGirisSifre;
         public System.Windows.Forms.TextBox diyetisyenGirisAd;
+        public System.Windows.Forms.TabControl tabControl1;
     }
 }
 
